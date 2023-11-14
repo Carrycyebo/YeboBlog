@@ -121,3 +121,36 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# katex
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  content: true
+
+# plugins:
+#   - hexo-algoliasearch
+
+# #algolia
+# algolia:
+#   appId: "QPL9QAY6K1"
+#   apiKey: "3c64f72c8755909939a0c76546d9ea08"
+#   adminApiKey: "bd8f6e983517e58b47f34e1f6e77165e"
+#   chunkSize: 5000
+#   indexName: "my-hexo-blog"
+#   fields:
+#     - content:strip:truncate,0,500
+#     - excerpt:strip
+#     - gallery
+#     - permalink
+#     - photos
+#     - slug
+#     - tags
+#     - title
