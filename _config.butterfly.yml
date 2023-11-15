@@ -485,7 +485,7 @@ facebook_comments:
 twikoo:
   envId: https://twikoo-carryc.netlify.app/.netlify/functions/twikoo
   region:
-  visitor: false
+  visitor: true
   option:
 
 # Giscus
