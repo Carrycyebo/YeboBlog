@@ -483,7 +483,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId:
+  envId: https://twikoo-carryc.netlify.app/.netlify/functions/twikoo
   region:
   visitor: false
   option:
