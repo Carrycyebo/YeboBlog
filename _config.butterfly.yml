@@ -11,10 +11,10 @@ nav:
 menu:
   首页: / || fas fa-home
   时间轴: /archives/ || fas fa-archive
-  目录||fa fa-pen:
+  目录||fa fa-pen || hide:
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-  娱乐||fa fa-heartbeat:
+  娱乐||fa fa-heartbeat hide :
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
   友链: /link/ || fas fa-link
